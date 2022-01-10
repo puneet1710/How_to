@@ -1,0 +1,29 @@
+HOW TO CREATE A GIT REPOSITORY/REMOTE REPOSITORY USING CMD.
+  COMMANDS USED:
+1. Direct your command line to the location where you want to create folder.
+2. Use command mkdir <folder name> to create a folder at that location.
+3. Use command touch <file name> to create a file at that location.
+4. Use command start <file name> to open the file.
+5. Now, we need to initialize the git, for this use command git init.
+6. Use the git add <file name> command to add the file.
+Now, we need to commit the changes, so in order to do that use the command git
+commit -m "comment".
+7.
+Now open the github Desktop or web github to create a repository WITHOUT
+CREATING A README FILE. PS: REPO NAME SHOULD BE SAME AS THE NAME OF
+THE DIRECTORY.
+8.
+9. Now use the command git remote add origin <path link>.
+Use the command git push -m origin master , to push your code to the github
+repository created.
+10.
+1. git init
+2. git commit -m " comment"
+3. git add <filename>
+4. git add .
+5. git status
+6. git diff <filename>
+7. git checkout
+8. git log
+9. git remote add origin <path link>
+10. git push -u origin maste
